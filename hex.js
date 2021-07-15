@@ -10,3 +10,5 @@ btn.addEventListener("click", function () {
   document.body.style.backgroundColor = randomHex;
   color.textContent = randomHex;
 });
+
+//another way is to use the for loop and hex += hex[i]
